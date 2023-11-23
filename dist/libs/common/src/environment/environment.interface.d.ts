@@ -1,0 +1,42 @@
+export declare const EnvironmentType: {
+    Development: string;
+    Production: string;
+    Test: string;
+    Staging: string;
+};
+export interface ENV {
+    NODE_ENV: string;
+    PORT: number;
+    SESSION_SECRET: string;
+    COOKIE_NAME: string;
+    SESSION_EXPIRY: number;
+    DB_DIALECT: string;
+    PER_PAGE_LIMIT: number;
+    REDIS_URI: string;
+    SENTRY_DSN: string;
+    DOMAIN: string;
+    SCALING: string;
+    SMTP_HOST: string;
+    SMTP_PORT: number;
+    SMTP_TLS: boolean;
+    SMTP_USERNAME: string;
+    SMTP_PASSWORD: string;
+    SMTP_FROM_EMAIL: string;
+    GOOGLE_CLIENT_ID: string;
+    GOOGLE_CLIENT_SECRET: string;
+    LINKEDIN_CLIENT_ID: string;
+    LINKEDIN_CLIENT_SECRET: string;
+    APPLE_CLIENT_ID: string;
+    APPLE_TEAM_ID: string;
+    APPLE_KEY_ID: string;
+    MAIL_HOST: string;
+    MAIL_PORT: number;
+    MAIL_USERNAME: string;
+    MAIL_PASSWORD: string;
+    MAIL_FROM: string;
+    MAIL_SECURE: boolean;
+    AZUR_CONNECTION_STRING: string;
+    AZUR_CONNECTION_NAME: string;
+    STRIPE_PUBLISHABLE_KEY: string;
+    STRIPE_SECRET_KEY: string;
+}
